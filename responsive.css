@@ -1,0 +1,61 @@
+/* media query for website responsiveness */
+
+@media screen and (max-width: 985px)
+ {
+  .container {
+    overflow: scroll;
+  }
+  .main {
+    display: block;
+  }
+  .right {
+    position: absolute;
+    top: 520px;
+    width: 100%;
+  }
+  .title {
+    position: relative;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    height: 50px;
+    padding: 5px;
+  }
+  .right {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: auto;
+    top: 395px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .aside p {
+    font-size: 14px;
+    text-align: justify;
+    padding: 8px;
+    line-height: 20px;
+  }
+  .landing {
+    position: absolute;
+    top: 645px;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+  .landing a {
+    font-size: 12px;
+    padding: 5px;
+    margin: auto;
+  }
+  .foot {
+    padding: 8px;
+    width: 100%;
+    position: absolute;
+    top: 685px;
+    letter-spacing: normal;
+    font-size: 12px;
+  }
+}

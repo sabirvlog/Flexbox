@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Calibri", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #294e9f, transparent);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.heading {
+  width: 100%;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background: blue;
+  padding: 15px;
+  text-transform: capitalize;
+}
+.title {
+  width: 40%;
+  height: 65px;
+  background-color: blueviolet;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: start;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  position: relative;
+  align-self: flex-start;
+  left: 10px;
+  border: 3px solid;
+}
+
+.right {
+  position: absolute;
+  right: 5px;
+  background: #15f887;
+  width: 50%;
+  height: 407px;
+  top: 100px;
+  text-align: center;
+  padding: 30px;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: brown;
+  border: 3px solid;
+}
+.aside h2 {
+  background-color: black;
+  font-weight: bold;
+  padding: 8px;
+}
+.aside p {
+  font-size: 19px;
+  color: rgb(19, 18, 18);
+  letter-spacing: 1px;
+  text-align: justify;
+  line-height: 30px;
+  padding: 30px;
+}
+.foot {
+  position: absolute;
+  top: 575px;
+  width: 99%;
+  background: #2a3055;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 0.7px;
+  text-transform: capitalize;
+}
+.landing {
+    background: #00bcd4;
+    padding: 8px 20px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.landing a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px;
+    margin: auto 50px;
+    transition: .5s ease;
+}
+.landing a:hover {
+    color: black;
+    background-color: transparent;
+    border: 1px solid blue;
+}
